@@ -94,6 +94,7 @@ button,
     height: 300px;
     width: 600px;
     flex-shrink: 0;
+    margin: 0 auto;
 }
 
 .cards-section {
