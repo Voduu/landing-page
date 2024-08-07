@@ -91,8 +91,8 @@ button,
     align-items: center;
     justify-content: center;
     background-color: #778899;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     flex-shrink: 0;
 }
 
