@@ -16,7 +16,7 @@ button {
     border: none;
     border-radius: 10px;
     font-weight: 700;
-    width: 121px;
+    width: 128px;
     height: 40px;
 }
 
@@ -159,27 +159,44 @@ button,
     text-align: right;
 }
 
-/* .testimonial-section {
-    background-color: #E5E7EB;
-    padding: 128px;
+.action-section {
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 64px;
+    max-width: 1200px;
+    margin: 64px auto;
+    padding: 48px 82px;
 }
 
-.quote,
-.author {
-    width: 1200px;
-    margin: 0 auto;
+.action {
+    flex: 0 3 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
-.quote {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
-}
-
-.author {
-    color: #1F2937;
+.action-header {
+    color: #FFFFFF;
     font-size: 24px;
     font-weight: 700;
-    text-align: right;
-} */
+}
+
+.action-text {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.sign-up {
+    flex: 0 1 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up button {
+    border: 2px solid #FFFFFF;
+}
+
